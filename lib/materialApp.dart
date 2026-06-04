@@ -35,6 +35,7 @@ class _MyAppState extends State<MyApp> {
           children: [
             Text("$count"),
             Text("Hey I am learning flutter"),
+            Image.asset('assets/user.png'),
           ],
         ),
       ),

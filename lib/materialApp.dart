@@ -27,8 +27,17 @@ class _MyAppState extends State<MyApp> {
     return Scaffold(
       appBar: AppBar(
         title: Text("My first App"),
+        backgroundColor: Colors.green[100],
       ),
-      body:Text("$count"),
+      body:Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text("$count"),
+            Text("Hey I am learning flutter"),
+          ],
+        ),
+      ),
       floatingActionButton: FloatingActionButton(onPressed: (){
         setState(() {
          count++;

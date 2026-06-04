@@ -34,7 +34,10 @@ class _MyAppState extends State<MyApp> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text("$count"),
-            Text("Hey I am learning flutter"),
+            Text("Hey I am learning flutter",style:
+            TextStyle(
+              color : Colors.red,
+            )),
             Image.asset('assets/user.png'),
           ],
         ),

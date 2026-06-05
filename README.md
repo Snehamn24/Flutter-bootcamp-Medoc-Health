@@ -2,17 +2,18 @@
 
 A new Flutter project.
 
-## Getting Started
+## Screenshots
+### First Simple UI
+![First Simple UI](screenshots/my_first_app.png)
 
-This project is a starting point for a Flutter application.
+### Second Screen
+![Second Screen](screenshots/second_screen.png)
 
-A few resources to get you started if this is your first Flutter project:
+### Elevated Button
+![Elevated Button](screenshots/elevated_button.png)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Images
+![Images](screenshots/image.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# Flutter-Summer-Internship-Medoc-Health" 
+### Ninja app
+![Ninja app](screenshots/ninja_app.png)

@@ -11,8 +11,10 @@ class SecondScreen extends StatelessWidget {
       ),
       body: Container(
         child: ElevatedButton(
-          onPressed: () {},
-          child: Text('Press Me'),
+          onPressed: () {
+            Navigator.pushNamed(context, 'buffer');
+          },
+          child: Text('Second  Screen'),
         ),
       ),
     );

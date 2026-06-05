@@ -12,9 +12,11 @@ class HomePage extends StatelessWidget {
         centerTitle:true,
       ),
       body:Container(
-        child : ElevatedButton(onPressed: () {}, child: Text('Press Me')),
+        child : ElevatedButton(onPressed: () {
+          Navigator.pushNamed(context,'second');
+        }, child: Text('Press Me')),
 
-      )
+      ),
 
       );
   }

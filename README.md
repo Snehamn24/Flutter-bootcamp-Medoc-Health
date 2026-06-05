@@ -22,3 +22,6 @@ A new Flutter project.
 
 ### Swipe card
 ![Swipe cards](./screenshots/swipe_card.png)
+
+### icons
+![Icons](./screenshots/icons.png)

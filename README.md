@@ -4,16 +4,16 @@ A new Flutter project.
 
 ## Screenshots
 ### First Simple UI
-![First Simple UI](screenshots/my_first_app.png)
+![First Simple UI](./screenshots/my_first_app.png)
 
 ### Second Screen
-![Second Screen](screenshots/second_screen.png)
+![Second Screen](./screenshots/second_screen.png)
 
 ### Elevated Button
-![Elevated Button](screenshots/elevated_button.png)
+![Elevated Button](./screenshots/elevated_button.png)
 
 ### Images
-![Images](screenshots/image.png)
+![Images](./screenshots/image.png)
 
 ### Ninja app
-![Ninja app](screenshots/ninja_app.png)
+![Ninja app](./screenshots/ninja_app.png)

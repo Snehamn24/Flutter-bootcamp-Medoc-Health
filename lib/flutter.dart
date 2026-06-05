@@ -9,6 +9,12 @@ class SecondScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text("Second Screen"),
       ),
+      body: Container(
+        child: ElevatedButton(
+          onPressed: () {},
+          child: Text('Press Me'),
+        ),
+      ),
     );
   }
 }

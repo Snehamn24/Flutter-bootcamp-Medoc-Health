@@ -1,4 +1,5 @@
 import 'package:flutter_card_swiper/flutter_card_swiper.dart';
+import 'package:flutter/material.dart';
 void main() {
   runApp(
     const MaterialApp(
@@ -16,6 +17,14 @@ class Example extends StatefulWidget {
   @override
   State<Example> createState() => _ExamplePageState();
 }
+
+final candidates = [
+  'Card 1',
+  'Card 2',
+  'Card 3',
+  'Card 4',
+  'Card 5',
+];
 
 class _ExamplePageState extends State<Example> {
   final CardSwiperController controller = CardSwiperController();
@@ -108,5 +117,26 @@ class _ExamplePageState extends State<Example> {
       'The card $currentIndex was undod from the ${direction.name}',
     );
     return true;
+  }
+}
+class ExampleCard extends StatelessWidget {
+  final String text;
+
+  const ExampleCard(this.text, {super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      color:Colors.blue,
+      child: Center(
+        child: Text(
+          text,
+          style: const TextStyle(fontSize: 30,
+          color : Colors.greenAccent,
+          fontWeight:FontWeight.bold,
+        ),
+      ),
+      ),
+    );
   }
 }

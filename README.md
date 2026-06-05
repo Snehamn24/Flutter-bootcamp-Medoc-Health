@@ -18,4 +18,7 @@ A new Flutter project.
 ### Ninja app
 ![Ninja app](./screenshots/ninja_app.png)
 
-![row](./screenshots/row.png)
+![row](./screenshots/row.png)   
+
+### Swipe card
+![Swipe cards](./screenshots/swipe_card.png)

@@ -53,10 +53,12 @@ class StudentHomeScreen extends StatelessWidget {
             // Vertical spacing
             const SizedBox(height: 30),
 
-            // First Card
+            // First Card - creates a box-like design
             Card(
 
-              child: ListTile(
+              //ListTile is a ready-made flutter widget used for list-style rows
+
+              child: ListTile( 
 
                 // Left side icon
                 leading: const Icon(
@@ -96,7 +98,7 @@ class StudentHomeScreen extends StatelessWidget {
               ),
             ),
 
-            const SizedBox(height: 15),
+            const SizedBox(height: 15),//gives 15 pixels space between the 2 cards
 
             // Second Card
             Card(

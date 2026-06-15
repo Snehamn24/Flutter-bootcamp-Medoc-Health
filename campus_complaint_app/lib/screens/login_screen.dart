@@ -12,11 +12,13 @@ class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
 
   // Creates the mutable state object
+  // this connects the LoginScrenn with 
   @override
   State<LoginScreen> createState() => _LoginScreenState();
 }
 
-// State class for LoginScreen
+// this is the State class for LoginScreen
+// _ represents the private class for this file
 class _LoginScreenState extends State<LoginScreen> {
 
   // Controller used to read email entered by the user
@@ -54,6 +56,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
     // If validation succeeds,
     // navigate to StudentHomeScreen
+    //pushReplacement-even if the user press back they are not able to come back the login page will be comed out of the push stack
     Navigator.pushReplacement(
 
       // Current screen context
@@ -70,6 +73,7 @@ class _LoginScreenState extends State<LoginScreen> {
   }
 
   // UI starts here
+  //build() creates the screen UI
   @override
   Widget build(BuildContext context) {
 
@@ -79,6 +83,7 @@ class _LoginScreenState extends State<LoginScreen> {
       body: Padding(
 
         // Give spacing around the screen
+        //this gives 20 pixels space on all the sides
         padding: const EdgeInsets.all(20),
 
         child: Center(
@@ -88,6 +93,7 @@ class _LoginScreenState extends State<LoginScreen> {
             // Makes screen scrollable
             // when keyboard appears
 
+//when the child is column the widgets appears vertically
             child: Column(
 
               children: [
@@ -172,3 +178,8 @@ class _LoginScreenState extends State<LoginScreen> {
     );
   }
 }
+
+//does 3 jobs
+//1.Shows the email and password
+//2.Checks whether the fields are empty(if they are empty shows the snackbar)
+//3.Opens StudentHomeScreen after login
